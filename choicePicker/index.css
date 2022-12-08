@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin:0;
+}
+body{
+    font-family: Lobster;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: deepskyblue;
+}
+h3{
+    font-size: x-large;
+    text-align: center;
+    margin:10px;
+}
+textarea{
+    display: block;
+    border:none;
+    width:50vw;
+    height:20vh;
+    font-family:'Courier New', Courier, monospace;
+    margin: 10px;
+    border-radius: 5px;
+}
+.tag{
+    background-color: darkred;
+    text-align: center;
+    padding: 0 5px ;
+    margin-left: 10px;
+}
+.highlight{
+    background-color: blue;
+}
